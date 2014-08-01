@@ -18,3 +18,7 @@ Usage:
      
      if [logfile] is empty, log will be saved as %temp%\<name-with-a-path-delimited-by-dash>.log 
  
+ For use in WebStorm, PhpStorm edit path in watchers.xml and import it.  
+ in watchers.xml change parameter
+ 
+     <option name="program" value="<path/to/your/less-convert.bat>" />
